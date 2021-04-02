@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Error: EISDIR: illegal operation on a directory, read<br> &nbsp; &nbsp;at Object.readSync (node:fs:603:3)<br> &nbsp; &nbsp;at tryReadSync (node:fs:377:20)<br> &nbsp; &nbsp;at Object.readFileSync (node:fs:414:19)<br> &nbsp; &nbsp;at UnableToResolveError.buildCodeFrameMessage (C:\Users\ibrhm\Desktop\affineCipher\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:347:17)<br> &nbsp; &nbsp;at new UnableToResolveError (C:\Users\ibrhm\Desktop\affineCipher\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:333:35)<br> &nbsp; &nbsp;at ModuleResolver.resolveDependency (C:\Users\ibrhm\Desktop\affineCipher\node_modules\metro\src\node-haste\DependencyGraph\ModuleResolution.js:211:15)<br> &nbsp; &nbsp;at DependencyGraph.resolveDependency (C:\Users\ibrhm\Desktop\affineCipher\node_modules\metro\src\node-haste\DependencyGraph.js:413:43)<br> &nbsp; &nbsp;at C:\Users\ibrhm\Desktop\affineCipher\node_modules\metro\src\lib\transformHelpers.js:317:42<br> &nbsp; &nbsp;at C:\Users\ibrhm\Desktop\affineCipher\node_modules\metro\src\Server.js:1471:14<br> &nbsp; &nbsp;at Generator.next (&lt;anonymous&gt;)</pre>
+</body>
+</html>
